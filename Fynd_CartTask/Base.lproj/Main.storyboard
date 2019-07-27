@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UNw-T4-wSd">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Products-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ProductViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rGp-cf-cYb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" red="0.16078431372549018" green="0.16470588235294117" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MDI-8n-AMt">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="50" height="50"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="headerView" id="h8w-bY-KnJ" customClass="ProductHeaderCollectionReusableView">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWU-39-APp">
+                                            <rect key="frame" x="28" y="15" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R96-BW-oN0">
+                                            <rect key="frame" x="300" y="12" width="35" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="Kb5-HQ-TQ5"/>
+                                                <constraint firstAttribute="width" constant="35" id="h94-im-YbE"/>
+                                            </constraints>
+                                            <state key="normal" title="Price">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="sortByPriceAction:" destination="h8w-bY-KnJ" eventType="touchUpInside" id="HII-Pc-BYA"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWQ-Xb-jUd">
+                                            <rect key="frame" x="355" y="12" width="41" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="Gyj-yr-X3u"/>
+                                                <constraint firstAttribute="width" constant="41" id="zIa-91-Kps"/>
+                                            </constraints>
+                                            <state key="normal" title="Name">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="sortByNameAction:" destination="h8w-bY-KnJ" eventType="touchUpInside" id="STF-c4-3VL"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="NWQ-Xb-jUd" firstAttribute="centerY" secondItem="R96-BW-oN0" secondAttribute="centerY" id="5U3-PQ-I7B"/>
+                                        <constraint firstItem="VWU-39-APp" firstAttribute="leading" secondItem="h8w-bY-KnJ" secondAttribute="leadingMargin" constant="20" id="6Ci-98-2Iu"/>
+                                        <constraint firstItem="NWQ-Xb-jUd" firstAttribute="top" secondItem="h8w-bY-KnJ" secondAttribute="top" constant="12" id="Khv-W5-sSk"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="NWQ-Xb-jUd" secondAttribute="trailing" constant="10" id="dgz-lv-cdo"/>
+                                        <constraint firstItem="VWU-39-APp" firstAttribute="top" secondItem="h8w-bY-KnJ" secondAttribute="top" constant="15" id="gvg-BN-FGG"/>
+                                        <constraint firstItem="NWQ-Xb-jUd" firstAttribute="leading" secondItem="R96-BW-oN0" secondAttribute="trailing" constant="20" id="rF6-AZ-eWD"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="headerTitle" destination="VWU-39-APp" id="1gz-8Z-mqJ"/>
+                                        <outlet property="sortByName" destination="NWQ-Xb-jUd" id="usq-ki-nj6"/>
+                                        <outlet property="sortByPrice" destination="R96-BW-oN0" id="YY6-DX-jlL"/>
+                                    </connections>
+                                </collectionReusableView>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="GHY-mu-iJ3"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="oNb-4T-NAp"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rGp-cf-cYb" secondAttribute="trailing" id="6Rm-j0-X3x"/>
+                            <constraint firstItem="rGp-cf-cYb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UmR-Y3-mTk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rGp-cf-cYb" secondAttribute="bottom" id="c3O-IR-zRY"/>
+                            <constraint firstItem="rGp-cf-cYb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iG1-Vo-Kqw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Products" id="qyT-R9-52P">
+                        <barButtonItem key="rightBarButtonItem" title="Switch" id="BRJ-eL-KuT">
+                            <connections>
+                                <action selector="switchView:" destination="BYZ-38-t0r" id="9zb-B1-3iL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="productsCollectionView" destination="rGp-cf-cYb" id="bqM-KU-slk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.75362318840587" y="65.625"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SOz-Kz-iEO">
+            <objects>
+                <viewController id="Ku1-eg-8vA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="00A-hi-qcn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="n5F-c1-xbX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sao-G7-VdE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1962" y="71"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QG6-M5-oG0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UNw-T4-wSd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lb8-W1-zVV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BZl-87-L4a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0KD-Q5-ck0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82.608695652173921" y="65.625"/>
+        </scene>
+    </scenes>
+</document>

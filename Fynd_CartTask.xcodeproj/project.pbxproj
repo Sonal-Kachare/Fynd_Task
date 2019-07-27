@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120AD35D22EADEC90083ED12 /* ProductHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 120AD35C22EADEC90083ED12 /* ProductHeaderCollectionReusableView.m */; };
+		127C612722E96DE4005F300C /* CommonBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 127C612622E96DE4005F300C /* CommonBlocks.m */; };
+		127C612C22E9BE82005F300C /* ProductListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 127C612A22E9BE82005F300C /* ProductListCollectionViewCell.m */; };
+		127C612D22E9BE82005F300C /* ProductListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127C612B22E9BE82005F300C /* ProductListCollectionViewCell.xib */; };
+		127C613022E9C1E7005F300C /* ProductGridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 127C612F22E9C1E7005F300C /* ProductGridCollectionViewCell.m */; };
+		127C613222E9C1FF005F300C /* ProductGridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127C613122E9C1FF005F300C /* ProductGridCollectionViewCell.xib */; };
+		12E8194C22E813E7001127CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8194B22E813E7001127CD /* AppDelegate.m */; };
+		12E8194F22E813E7001127CD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8194E22E813E7001127CD /* SceneDelegate.m */; };
+		12E8195222E813E7001127CD /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8195122E813E7001127CD /* ProductViewController.m */; };
+		12E8195522E813E7001127CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E8195322E813E7001127CD /* Main.storyboard */; };
+		12E8195722E813E8001127CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E8195622E813E8001127CD /* Assets.xcassets */; };
+		12E8195A22E813E8001127CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E8195822E813E8001127CD /* LaunchScreen.storyboard */; };
+		12E8195D22E813E8001127CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8195C22E813E8001127CD /* main.m */; };
+		12E8196522E81ADD001127CD /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8196422E81ADD001127CD /* ProductCategory.m */; };
+		12E8196822E81D70001127CD /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8196722E81D70001127CD /* Product.m */; };
+		12E8196C22E83581001127CD /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8196B22E83581001127CD /* NetworkManager.m */; };
+		12E8197022E85A7A001127CD /* ProductCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8196F22E85A7A001127CD /* ProductCategoryViewModel.m */; };
+		12E8197322E85CAD001127CD /* ProductViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8197222E85CAD001127CD /* ProductViewModel.m */; };
+		EA385935C8A01B91B6CFF339 /* libPods-Fynd_CartTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E0B4B3F1AFF2F614763AD3 /* libPods-Fynd_CartTask.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120AD35B22EADEC90083ED12 /* ProductHeaderCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		120AD35C22EADEC90083ED12 /* ProductHeaderCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		127C612522E96DE4005F300C /* CommonBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonBlocks.h; sourceTree = "<group>"; };
+		127C612622E96DE4005F300C /* CommonBlocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonBlocks.m; sourceTree = "<group>"; };
+		127C612922E9BE82005F300C /* ProductListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListCollectionViewCell.h; sourceTree = "<group>"; };
+		127C612A22E9BE82005F300C /* ProductListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListCollectionViewCell.m; sourceTree = "<group>"; };
+		127C612B22E9BE82005F300C /* ProductListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListCollectionViewCell.xib; sourceTree = "<group>"; };
+		127C612E22E9C1E7005F300C /* ProductGridCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductGridCollectionViewCell.h; sourceTree = "<group>"; };
+		127C612F22E9C1E7005F300C /* ProductGridCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductGridCollectionViewCell.m; sourceTree = "<group>"; };
+		127C613122E9C1FF005F300C /* ProductGridCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductGridCollectionViewCell.xib; sourceTree = "<group>"; };
+		12E8194722E813E7001127CD /* Fynd_CartTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fynd_CartTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E8194A22E813E7001127CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12E8194B22E813E7001127CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12E8194D22E813E7001127CD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		12E8194E22E813E7001127CD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		12E8195022E813E7001127CD /* ProductViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		12E8195122E813E7001127CD /* ProductViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		12E8195422E813E7001127CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12E8195622E813E8001127CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12E8195922E813E8001127CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12E8195B22E813E8001127CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E8195C22E813E8001127CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12E8196322E81ADD001127CD /* ProductCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCategory.h; sourceTree = "<group>"; };
+		12E8196422E81ADD001127CD /* ProductCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCategory.m; sourceTree = "<group>"; };
+		12E8196622E81D70001127CD /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		12E8196722E81D70001127CD /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		12E8196A22E83581001127CD /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		12E8196B22E83581001127CD /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		12E8196E22E85A7A001127CD /* ProductCategoryViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCategoryViewModel.h; sourceTree = "<group>"; };
+		12E8196F22E85A7A001127CD /* ProductCategoryViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCategoryViewModel.m; sourceTree = "<group>"; };
+		12E8197122E85CAD001127CD /* ProductViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductViewModel.h; sourceTree = "<group>"; };
+		12E8197222E85CAD001127CD /* ProductViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductViewModel.m; sourceTree = "<group>"; };
+		36BE7B9FF02ED6FB48392DED /* Pods-Fynd_CartTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fynd_CartTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fynd_CartTask/Pods-Fynd_CartTask.debug.xcconfig"; sourceTree = "<group>"; };
+		99E0B4B3F1AFF2F614763AD3 /* libPods-Fynd_CartTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fynd_CartTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF78843DCFF4D9C690C7E3A6 /* Pods-Fynd_CartTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fynd_CartTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fynd_CartTask/Pods-Fynd_CartTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E8194422E813E7001127CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA385935C8A01B91B6CFF339 /* libPods-Fynd_CartTask.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		127C612822E9BE11005F300C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				127C612922E9BE82005F300C /* ProductListCollectionViewCell.h */,
+				127C612A22E9BE82005F300C /* ProductListCollectionViewCell.m */,
+				127C612B22E9BE82005F300C /* ProductListCollectionViewCell.xib */,
+				127C612E22E9C1E7005F300C /* ProductGridCollectionViewCell.h */,
+				127C612F22E9C1E7005F300C /* ProductGridCollectionViewCell.m */,
+				127C613122E9C1FF005F300C /* ProductGridCollectionViewCell.xib */,
+				120AD35B22EADEC90083ED12 /* ProductHeaderCollectionReusableView.h */,
+				120AD35C22EADEC90083ED12 /* ProductHeaderCollectionReusableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12E8193E22E813E7001127CD = {
+			isa = PBXGroup;
+			children = (
+				12E8194922E813E7001127CD /* Fynd_CartTask */,
+				12E8194822E813E7001127CD /* Products */,
+				50B69BF672980691C476A08D /* Pods */,
+				A39179E6DB2153AABEEC93F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12E8194822E813E7001127CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E8194722E813E7001127CD /* Fynd_CartTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E8194922E813E7001127CD /* Fynd_CartTask */ = {
+			isa = PBXGroup;
+			children = (
+				127C612822E9BE11005F300C /* View */,
+				12E8196D22E85A59001127CD /* ViewModel */,
+				12E8196922E83560001127CD /* Model */,
+				12E8194A22E813E7001127CD /* AppDelegate.h */,
+				12E8194B22E813E7001127CD /* AppDelegate.m */,
+				12E8194D22E813E7001127CD /* SceneDelegate.h */,
+				12E8194E22E813E7001127CD /* SceneDelegate.m */,
+				12E8195022E813E7001127CD /* ProductViewController.h */,
+				12E8195122E813E7001127CD /* ProductViewController.m */,
+				12E8195322E813E7001127CD /* Main.storyboard */,
+				12E8195622E813E8001127CD /* Assets.xcassets */,
+				12E8195822E813E8001127CD /* LaunchScreen.storyboard */,
+				12E8195B22E813E8001127CD /* Info.plist */,
+				12E8195C22E813E8001127CD /* main.m */,
+				12E8196A22E83581001127CD /* NetworkManager.h */,
+				12E8196B22E83581001127CD /* NetworkManager.m */,
+				127C612522E96DE4005F300C /* CommonBlocks.h */,
+				127C612622E96DE4005F300C /* CommonBlocks.m */,
+			);
+			path = Fynd_CartTask;
+			sourceTree = "<group>";
+		};
+		12E8196922E83560001127CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12E8196322E81ADD001127CD /* ProductCategory.h */,
+				12E8196422E81ADD001127CD /* ProductCategory.m */,
+				12E8196622E81D70001127CD /* Product.h */,
+				12E8196722E81D70001127CD /* Product.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12E8196D22E85A59001127CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				12E8196E22E85A7A001127CD /* ProductCategoryViewModel.h */,
+				12E8196F22E85A7A001127CD /* ProductCategoryViewModel.m */,
+				12E8197122E85CAD001127CD /* ProductViewModel.h */,
+				12E8197222E85CAD001127CD /* ProductViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		50B69BF672980691C476A08D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36BE7B9FF02ED6FB48392DED /* Pods-Fynd_CartTask.debug.xcconfig */,
+				AF78843DCFF4D9C690C7E3A6 /* Pods-Fynd_CartTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A39179E6DB2153AABEEC93F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E0B4B3F1AFF2F614763AD3 /* libPods-Fynd_CartTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E8194622E813E7001127CD /* Fynd_CartTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E8196022E813E8001127CD /* Build configuration list for PBXNativeTarget "Fynd_CartTask" */;
+			buildPhases = (
+				B635925A2050AA2AB7FB3195 /* [CP] Check Pods Manifest.lock */,
+				12E8194322E813E7001127CD /* Sources */,
+				12E8194422E813E7001127CD /* Frameworks */,
+				12E8194522E813E7001127CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fynd_CartTask;
+			productName = Fynd_CartTask;
+			productReference = 12E8194722E813E7001127CD /* Fynd_CartTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E8193F22E813E7001127CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Sonal Kachare";
+				TargetAttributes = {
+					12E8194622E813E7001127CD = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 12E8194222E813E7001127CD /* Build configuration list for PBXProject "Fynd_CartTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E8193E22E813E7001127CD;
+			productRefGroup = 12E8194822E813E7001127CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E8194622E813E7001127CD /* Fynd_CartTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E8194522E813E7001127CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E8195A22E813E8001127CD /* LaunchScreen.storyboard in Resources */,
+				12E8195722E813E8001127CD /* Assets.xcassets in Resources */,
+				127C613222E9C1FF005F300C /* ProductGridCollectionViewCell.xib in Resources */,
+				127C612D22E9BE82005F300C /* ProductListCollectionViewCell.xib in Resources */,
+				12E8195522E813E7001127CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B635925A2050AA2AB7FB3195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fynd_CartTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E8194322E813E7001127CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127C613022E9C1E7005F300C /* ProductGridCollectionViewCell.m in Sources */,
+				127C612722E96DE4005F300C /* CommonBlocks.m in Sources */,
+				12E8197022E85A7A001127CD /* ProductCategoryViewModel.m in Sources */,
+				12E8197322E85CAD001127CD /* ProductViewModel.m in Sources */,
+				12E8196522E81ADD001127CD /* ProductCategory.m in Sources */,
+				120AD35D22EADEC90083ED12 /* ProductHeaderCollectionReusableView.m in Sources */,
+				12E8196C22E83581001127CD /* NetworkManager.m in Sources */,
+				12E8195222E813E7001127CD /* ProductViewController.m in Sources */,
+				12E8194C22E813E7001127CD /* AppDelegate.m in Sources */,
+				127C612C22E9BE82005F300C /* ProductListCollectionViewCell.m in Sources */,
+				12E8196822E81D70001127CD /* Product.m in Sources */,
+				12E8195D22E813E8001127CD /* main.m in Sources */,
+				12E8194F22E813E7001127CD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12E8195322E813E7001127CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E8195422E813E7001127CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12E8195822E813E8001127CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E8195922E813E8001127CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12E8195E22E813E8001127CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12E8195F22E813E8001127CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E8196122E813E8001127CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BE7B9FF02ED6FB48392DED /* Pods-Fynd_CartTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D2848NWD38;
+				INFOPLIST_FILE = Fynd_CartTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonal.Fynd-CartTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development 2013";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		12E8196222E813E8001127CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF78843DCFF4D9C690C7E3A6 /* Pods-Fynd_CartTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D2848NWD38;
+				INFOPLIST_FILE = Fynd_CartTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonal.Fynd-CartTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development 2013";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E8194222E813E7001127CD /* Build configuration list for PBXProject "Fynd_CartTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E8195E22E813E8001127CD /* Debug */,
+				12E8195F22E813E8001127CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E8196022E813E8001127CD /* Build configuration list for PBXNativeTarget "Fynd_CartTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E8196122E813E8001127CD /* Debug */,
+				12E8196222E813E8001127CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E8193F22E813E7001127CD /* Project object */;
+}
